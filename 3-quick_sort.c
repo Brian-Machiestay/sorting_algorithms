@@ -21,6 +21,7 @@ void lomuto(int *array, int lo, int hi)
 			temp = array[i];
 			array[i] = array[current];
 			array[current] = temp;
+			print_array(array);
 		}
 	}
 	temp = array[current];
